@@ -2,7 +2,7 @@
   <div class="card text-center">
     <% if user_signed_in? %>
       <div class="card-header">
-        Written by: <%=article.user.email.split('@')[0]%>
+        Written by: <%= username(article.user.email) %>
       </div>
     <% else %>
       <div class="card-header">
