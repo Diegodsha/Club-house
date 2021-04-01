@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Clun house (members-only)
+# Club house (members-only)
 
 <p align="center">
     <a href="https://github.com/Diegodsha/Club-house/issues">
