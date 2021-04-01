@@ -37,7 +37,8 @@ To run this app simply follow the steps below:
 
 ### Usage
 
-- Run `Bundle install` to install all the required gems
+- Run `bundle install` to install all the required gems
+- Run `yarn install` to install js dependencies
 - Run `rails db:migrate` to do the migrations
 - Run `rails s` to initialize rails local server
 - Open your browser and type `http://localhost:3000` to enter the app
