@@ -70,11 +70,11 @@ To run this app simply follow the steps below:
 - Twitter: [@diegohdezchimo](https://twitter.com/diegohdezchimo)
 - LinkedIn: [diegoshdezaguilar](https://www.linkedin.com/in/diegoshdezaguilar/)
 
-### Carlos Gonzáles
+### Carlos González
 
 - GitHub: [@chuckbuckethead](https://github.com/chuckbuckethead)
 - Twitter: [@aclerkofpomiere](https://twitter.com/aclerkofpomier)
-- LinkedIn: [Carlos González](https://www.linkedin.com/in/chuckbuckethead/)
+- LinkedIn: [Carlos González](https://www.linkedin.com/in/carlosrmgonzalez/)
 
 ## Acknowledgements
 
