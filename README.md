@@ -1,24 +1,81 @@
-# README
+# Clun house (members-only)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p align="center">
+    <a href="https://github.com/Diegodsha/Club-house/issues">
+    <img src="https://img.shields.io/github/issues-raw/Diegodsha/Club-house?style=for-the-badge"
+         alt="Issues">
+     <a href="https://github.com/Diegodsha/Club-house/pulls">
+    <img src="https://img.shields.io/github/issues-pr/Diegodsha/Club-house?style=for-the-badge"
+         alt="Pull Requests">
+</p>
 
-Things you may want to cover:
+### This is a sneak peak of the app
 
-* Ruby version
+## Articles with a signed in user
 
-* System dependencies
+![login-articles](https://user-images.githubusercontent.com/70416006/113334407-e5c2a380-92e0-11eb-91a6-d9601f87517a.png)
 
-* Configuration
+## Articles with no signed in user
 
-* Database creation
+![article-sigenout](https://user-images.githubusercontent.com/70416006/113334400-e52a0d00-92e0-11eb-95ea-5ac6047865d3.png)
 
-* Database initialization
+## User trying to create, edit or destroy an articles without signin in
 
-* How to run the test suite
+![signinmsg](https://user-images.githubusercontent.com/70416006/113334397-e4917680-92e0-11eb-86ce-c3e60c014301.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
 
-* Deployment instructions
+To run this app simply follow the steps below:
 
-* ...
+### Prerequisites
+
+- Install Ruby programming language 3.0.0
+- Install Code editor
+- Clone this repository runing this command on your terminal `git clone https://github.com/Diegodsha/Club-house.git`
+
+### Usage
+
+- Run `Bundle install` to install all the required gems
+- Run `rails db:migrate` to do the migrations
+- Run `rails s` to initialize rails local server
+- Open your browser and type `http://localhost:3000` to enter the app
+- Available paths:
+
+  - Click on `Home` button or type `localhost:3000` to see All articles created
+  - Click on `Sign up` button or type `localhost:3000/users/sign_up` to create an account
+  - Click on `Sign in` button or type `localhost:3000/users/sign_in` to login into the app
+
+  AFTER YOU CREATED AN ACCOUNT AND/OR LOGGED IN
+
+  - Click on `New article` button or type localhost:3000/artilces/new = Create a new article
+  - Click on `Link` button or type `localhost:3000/articles/article_id:` to see an specific article
+  - Click on `Pencil` button or type `localhost:3000/articles/article_id:/edit` to edit an specific article
+  - Click on `Trash can` button to delete an specific article
+
+### Description
+
+    App that includes CRUD for articles and user athentication with email and password
+
+## Built With
+
+- Ruby programming language
+- Ruby on rails framework
+- Visual Studio Code Editor
+
+## Authors
+
+### Diego Hernández
+
+- GitHub: [@Diegodsha](https://github.com/Diegodsha)
+- Twitter: [@diegohdezchimo](https://twitter.com/diegohdezchimo)
+- LinkedIn: [diegoshdezaguilar](https://www.linkedin.com/in/diegoshdezaguilar/)
+
+### Carlos Gonzáles
+
+- GitHub: [@chuckbuckethead](https://github.com/chuckbuckethead)
+- Twitter: [@aclerkofpomiere](https://twitter.com/aclerkofpomier)
+- LinkedIn: [Carlos González](https://www.linkedin.com/in/chuckbuckethead/)
+
+## Acknowledgements
+
+- [Microverse](https://www.microverse.org)
