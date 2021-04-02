@@ -1,27 +1,18 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Articles</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Article</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @articles.each do |article| %>
-      <tr>
-        <td><%= article.article %></td>
-        <td><%= link_to 'Show', article %></td>
-        <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Article', new_article_path %>
+<% @articles.each do |article| %>
+  <div class="container-sm w-50 mt-1">
+    <div class="card text-center">
+      <div class="card-header fw-bold">
+        Written by: <%= show_author(article.user.email.split('@')[0]) %>
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+          <%= article.article %>
+        </p>
+      </div>
+      <div class="card-footer text-muted">
+        <%= time_ago_in_words(article.created_at.localtime) %> ago
+      </div>
+    </div>
+  </div>
+  <br>
+<% end %>
