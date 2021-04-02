@@ -4,6 +4,6 @@ module ArticlesHelper
       article
     else
       'You need to sign up or login to see the author'
-   end
+    end
   end
 end
