@@ -1,4 +1,18 @@
-<h1>Articles</h1>
-<div class="container-sm">
-  <%= render 'article' %>
-</div>
+<% @articles.each do |article| %>
+  <div class="container-sm w-50 mt-1">
+    <div class="card text-center">
+      <div class="card-header fw-bold">
+        Written by: <%= show_author(article.user.email.split('@')[0]) %>
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+          <%= article.article %>
+        </p>
+      </div>
+      <div class="card-footer text-muted">
+        <%= time_ago_in_words(article.created_at.localtime) %> ago
+      </div>
+    </div>
+  </div>
+  <br>
+<% end %>
